@@ -1,0 +1,327 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+}
+
+
+.nav{
+    position: sticky;
+    top:0;
+    position: -webkit-sticky;
+    background-color: #183D3D;
+    height:80px;
+    width:100%;
+    
+
+    
+    
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    
+}
+label.logo{
+    line-height: 80px;
+    padding:0 100px;
+    color: #93B1A6;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav ul{
+    float:right;
+    margin-right: 20px;
+    
+}
+.nav ul li{
+    display: inline-block;
+    line-height:80px;
+    margin: 0 5px;
+    
+}
+.nav  ul li a {
+    color:#5C8374;
+    text-transform:uppercase;
+    font-size:17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+}
+a.active, a.link:hover{
+    background: #93B1A6;
+    color:#183D3D ;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size : 30px;
+    float : right;
+    color: #5C8374;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.intro{
+    
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+}
+.skill1{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 
+    
+}
+.skill1 .gambar1{
+    margin-right: 20px;
+    display: block;
+    float: left;
+    background-color: black;
+    border: 2px solid black;
+}
+.about{
+    padding: 10px 0 0 50px;
+    color:
+    #2c5847;
+
+}
+.about h1{
+    color: #183D3D;
+}
+.Skill{
+    padding:10px 0 0 50px ;
+}
+.Skill h1, .skill1 h2, .skill2 h2{
+    color: #183D3D;
+}
+.skill1 p, .skill2 p{
+    color: #2c5847;
+}
+.skill2 .gambar1{
+    margin-right: 20px;
+    display: block;
+    float: left;
+    background-color: black;
+    border: 2px solid black;
+}
+    
+.skill2{
+    margin-top:100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+.degree>h1{
+    font-family: sans-serif;
+}
+
+.gambar{
+    float: left;
+    border: 1px solid black;
+    
+}
+
+.intro>.profil{
+    align-items: center;
+}
+a{
+    color: black;
+}
+.nama{
+    font-family: sans-serif;;
+    font-size: 50pt;
+    color: #183D3D;
+}
+.karir{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Rouge Script', cursive;
+    
+    font-size: 50pt;
+    color:#5C8374;
+}
+.footer{
+    background-color:   #183D3D; 
+    margin-top: 40px;
+    width: 98.50%;
+    height: auto;
+    padding : 20px 10px 0 10px;
+
+}
+.footer p{
+    text-align: center;
+    margin-top: 50px;
+}
+.socialmedia{
+    text-align: center;
+    color: #040D12;
+    
+}
+.socialmedia ul li {
+    display: inline;
+    list-style-type: none;
+    padding:20px 30px 10px 0;
+
+}
+.socialmedia #link:hover{
+    color: #040D12;
+    transition: .5s;
+}
+
+#link{
+    color: #5C8374;
+    padding-right: 10px;
+}
+
+.sertifikat ul li{
+    list-style-type:decimal
+}
+.sertifikat ul{
+    margin-top: 20px;
+}
+.sertifikat ul li{
+    color: #5C8374;
+    margin-top: 10px;
+}
+.sertifikat ul li a{
+    color: #5C8374;
+}
+.sertifikat ul li a:hover{
+    color: #2c5847;
+    text-decoration:underline;
+}
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 858px){
+    .checkbtn{
+        display:block;
+    }
+    .menu-list-h3{
+       text-align: center;
+    }
+    nav ul {
+        position:fixed;
+        width:100%;
+        height:100vh;
+        background: #040D12;
+        text-align:center;
+        left:-100%;
+        top:80px;
+        transition: all .20s;
+        padding: 0;
+    }
+    .nav ul li{
+        display: block;
+        margin:50px;
+        line-height: 30px;
+        color: #183D3D
+    }
+    .nav ul li a {
+        font-size:20px;
+    }
+    a.link:hover,a.active{
+        background: none;
+        color: beige;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 70px;
+    }
+    .intro,.skill1, .skill2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gambar{
+        width: 230px;
+        height: 350px;
+        border: 1px solid black;
+    }
+    .intro .nama{
+        font-size: 40pt;
+        text-align: center;
+    }
+    .intro .karir{
+        font-size: 40pt;
+        text-align: center;
+    }
+    .skill1 .gambar1, .skill2 .gambar1{
+        background: none;
+        border: none;
+        padding-bottom: 15px;
+    }
+    .about,.Skill{
+        padding: 10px 5px 10px 10px;
+        text-align: justify;
+    }
+    .Skill p br{
+        display: none;
+    }
+    .about  h2{
+        text-align: center;
+    }
+    .Skill h2{
+        text-align: center;
+    }
+    .footer{
+        padding: 20px 10px 0 10px ;
+        width: 98.45%;
+    }
+}
+@media(max-width:952px){
+    label.logo{
+        font-size : 30px;
+        padding-left:50px;
+    }
+    .nav ul li a{
+        font-size:16px;
+    }
+}
