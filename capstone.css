@@ -117,11 +117,25 @@ a.active, a.link:hover{
     border: 2px solid black;
 }
 .about{
-    padding: 10px 0 0 50px;
+    padding: 10px 60px 0 50px;
     color:
     #2c5847;
 
 }
+.isi h2{
+    margin-bottom: 10px;
+}
+.isi p{
+    margin-bottom: 10px;
+}
+#nilai{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#nilai li{
+    list-style-type: disc;
+    margin-top: 5px;
+}   
 .about h1{
     color: #183D3D;
 }
